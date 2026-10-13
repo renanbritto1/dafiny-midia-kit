@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 95" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&amp;display=swap');
+      .tp-bold { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 900; font-size: 45px; letter-spacing: -1.2px; }
+      .tp-badge { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 18.5px; letter-spacing: -0.3px; }
+      .tp-sub { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 14px; line-height: 1.1; letter-spacing: -0.3px; }
+    </style>
+  </defs>
+  <!-- Top brand line: the place -->
+  <text x="4" y="40" class="tp-bold" fill="#FFFFFF">the <tspan fill="#FF2638">p</tspan><tspan fill="#FFFFFF">lace</tspan></text>
+  
+  <!-- Red accent underline beneath 'p' descender -->
+  <rect x="96" y="87" width="10" height="4.5" rx="1" fill="#FF2638" />
+
+  <!-- health club badge with subtle border -->
+  <rect x="4" y="54" width="132" height="29" rx="3.5" fill="#0A0A0D" stroke="#FFFFFF" stroke-width="1.8" />
+  <text x="70" y="74.5" class="tp-badge" fill="#FFFFFF" text-anchor="middle">health club</text>
+
+  <!-- Vargem Grande -->
+  <text x="150" y="65.5" class="tp-sub" fill="#FFFFFF">Vargem</text>
+  <text x="150" y="80.5" class="tp-sub" fill="#FFFFFF">Grande</text>
+</svg>
